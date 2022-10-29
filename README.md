@@ -53,7 +53,7 @@ ProxyService:New(root, accessKey)
 Proxy:Get(url, nocache, headers, overrideProto)
 Proxy:Delete(url, nocache, headers, overrideProto)
 Proxy:Post(url, data, contentType, compress, headers, overrideProto)
-Proxy:Put(url, data, contentType, compress, headers, overrideProto)
+Proxy:Put(url, data, contentType, compress, headers, override Proto)
 Proxy:Patch(url, data, contentType, compress, headers, overrideProto)
 ```
 
